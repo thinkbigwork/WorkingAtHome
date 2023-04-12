@@ -13,6 +13,22 @@ Estado de construcción
 En esta primera etapa la herramienta pretende que el usuario pueda evaluar su puesto de trabajo y todos sus elementos, a saber: espacio, escritorio, silla, ubicación de las pantallas, ubicación del teclado y mouse, las condiciones de ambiente como el nivel de iluminación, contrastes, reflejos, los riesgos ergonómicos, la calidad del aire, el ruido interno y externo, etc.
 
 
+Diseño: wireframes
+------------
+
+**Sitio de Escritorio:**
+HOME: https://wireframe.cc/UGsUr2
+EVALUAR: https://wireframe.cc/yTwLJ6
+LOGIN: https://wireframe.cc/kl6HxC
+NOSOTROS: https://wireframe.cc/tywlhJ
+CONTACTO: https://wireframe.cc/2P5KAE
+
+**Sitio para movil:**
+HOME: https://wireframe.cc/nojjiJ
+EVALUAR: https://wireframe.cc/MgQyvg
+LOGIN: https://wireframe.cc/CfTe9a
+NOSOTROS: https://wireframe.cc/RhVGzg
+CONTACTO: https://wireframe.cc/lascdH
 
 ¿Cómo empezar?
 -----------
