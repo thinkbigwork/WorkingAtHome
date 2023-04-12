@@ -1,5 +1,7 @@
-WORKING AT HOME
+working at home
 ====================
+<img src="https://github.com/thinkbigwork/workingathome/blob/main/WORKING_AT_HOME/img/headers/slide_working_at_home.png" align="center" height="240" alt="GridDB"/>
+
 
 https://workingathome.github.com
 
