@@ -17,18 +17,31 @@ Diseño: wireframes
 ------------
 
 **Sitio de Escritorio:**
+
 HOME: https://wireframe.cc/UGsUr2
+
 EVALUAR: https://wireframe.cc/yTwLJ6
+
 LOGIN: https://wireframe.cc/kl6HxC
+
 NOSOTROS: https://wireframe.cc/tywlhJ
+
 CONTACTO: https://wireframe.cc/2P5KAE
 
+
 **Sitio para movil:**
+
 HOME: https://wireframe.cc/nojjiJ
+
 EVALUAR: https://wireframe.cc/MgQyvg
+
+
 LOGIN: https://wireframe.cc/CfTe9a
+
 NOSOTROS: https://wireframe.cc/RhVGzg
+
 CONTACTO: https://wireframe.cc/lascdH
+
 
 ¿Cómo empezar?
 -----------
