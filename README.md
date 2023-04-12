@@ -16,6 +16,7 @@ En esta primera etapa la herramienta pretende que el usuario pueda evaluar su pu
 Diseño: wireframes
 ------------
 
+
 **Sitio de Escritorio:**
 
 HOME: https://wireframe.cc/UGsUr2
@@ -27,6 +28,7 @@ LOGIN: https://wireframe.cc/kl6HxC
 NOSOTROS: https://wireframe.cc/tywlhJ
 
 CONTACTO: https://wireframe.cc/2P5KAE
+
 
 
 **Sitio para movil:**
@@ -41,6 +43,8 @@ LOGIN: https://wireframe.cc/CfTe9a
 NOSOTROS: https://wireframe.cc/RhVGzg
 
 CONTACTO: https://wireframe.cc/lascdH
+
+
 
 
 ¿Cómo empezar?
