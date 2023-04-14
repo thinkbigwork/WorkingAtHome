@@ -15,42 +15,58 @@
     <nav>  
         <ul>
         <a href="../index.html"><img src="../img/logo.png" alt="Logo de working at home"></a>
-            <li><a href="evaluar.html">Evaluar </a></li>
             <li><a href="#">Login</a></li>
+            <li><a href="./contacto.html">Contacto </a></li>
+            <li><a href="./nosotros.html">Nosotros </a></li>
+            <li><a href="evaluar.html">Evaluar </a></li>
         </ul>
     </nav>
 
     <main>
         <section class="container">
-            <h1>Login</h1>
-            <form action="envio.php">
-                <div>
-                    <input type="email" id="email" required placeholder="ingresa con Google">
+            <h1>Login</h1>     
+
+            <div class="container">
+                <div class="row justify-content-center">
+                  <div class="col-md-6">
+        
+                    <form>
+                      <div class="form-group">
+                        <label for="inputEmail">Correo electrónico</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Ingresa tu correo electrónico">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword">Contraseña</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Ingresa tu contraseña">
+                      </div>
+                      <button type="submit" class="btn button">Iniciar sesión</button>
+                    </form>
+                    <hr>
+                    <div class="text-center">
+                      <h5>O ingresa con</h5>
+                      <div>
+                        <a href="#" class="btn btn-lg btn-google"><i class="fab fa-google"></i> Google</a>
+                      </div>
+                      <div>
+                        <a href="#" class="btn btn-lg btn-apple"><i class="fab fa-apple"></i> Apple</a>
+        
+                      </div>
+                    </div>
+                    <hr>
+                    <div class="text-center">
+                        <div>
+                            <a href="#">No tienes cuenta?</a>
+                        </div>
+                        <div>
+                            <a href="#">Olvidaste tu contraseña?</a>
+                        </div>
+                    </div>
+                  </div>
                 </div>
-                <div>
-                    <input type="email" id="email" required placeholder="ingresa con Facebook">
-                </div>
-                <p>
-                    O ingresa con tu usuario y contraseña
-                </p>
-                <div>
-                    <input type="email" id="email" required placeholder="introduce tu email">
-                </div>
-                <div>
-                    <input type="password" id="password" required placeholder="contraseña">
-                </div>
-                <div>
-                    <input class="a-boton" type="submit" value="Iniciar sesión">
-                </div>
-            </form>
-            <div>
-                <a href="#">No tienes cuenta?</a>
-            </div>
-            <div>
-                <a href="#">Olvidaste tu contraseña?</a>
-            </div>
+              </div>
         </section>
     </main>
+
 
     <footer>
         <ul>
@@ -63,8 +79,7 @@
             <a href="https://www.instagram.com/" target="_blank">
                 <img src="../img/iconos/instagram.png" alt="Seguinos en Twitter">
             </a>
-            <li><a href="./nosotros.html">Nosotros </a></li>
-            <li><a href="./contacto.html">Contacto </a></li>
+
             <li><a href="#">Términos de Servicio</a></li>
             <li><a href="#">Políticas de Privacidad</a></li>
         </ul>
