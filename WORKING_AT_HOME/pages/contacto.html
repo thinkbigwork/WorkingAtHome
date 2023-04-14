@@ -8,6 +8,10 @@
     <title>Contacto - working at home</title> <!-- titulo del documento -->
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/style.css"> <!--vinculacion entre html y css-->
+    <!-- Incluir estilos y scripts de Bootstrap desde los enlaces en línea -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head> <!-- aquí cierra el encabezado -->
 
 <body> <!-- comienza lo que el usuario ve en su pantalla -->
@@ -22,21 +26,26 @@
 
     <main>
         <section class="container">
-            <h1>Contacto</h1>
-            <form  class="contenedor-ingresar" action="envio.php">
-                <div>
-                    <input type="name" id="name" required placeholder="Introduce tu Nombre">
-                </div>
-                <div>
-                    <input type="email" id="email" required placeholder="Introduce tu email">
-                </div>
-                <div>
-                    <input type="text" id="text" required placeholder="Escribe tus comentarios">
-                </div>
-                <div>
-                    <input class="a-boton" type="submit" value="Enviar">
-                </div>
-            </form>
+                <h1>Contacto</h1>
+                <form>
+                    <div class="form-group">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="apellido">Apellido:</label>
+                        <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
+                    </div>
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios:</label>
+                        <textarea class="form-control" id="comentarios" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
         </section>
     </main>
 
