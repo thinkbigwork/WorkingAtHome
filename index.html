@@ -1,0 +1,102 @@
+<!DOCTYPE html> <!-- soy un documento de html -->
+<html lang="es"> <!-- seteo en español -->
+
+<head> <!-- aqui comienza el encabezado, no se visualiza en la web -->
+    <meta charset="UTF-8"> <!-- seteo el teclado en conjunto de caracteres en latino -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- indica la compatibilidad con el Internet Explore -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>working at home - tu lugar de trabajo profesional</title> <!-- titulo del documento -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> <!--vinculacion entre html y css-->
+</head> <!-- aquí cierra el encabezado -->
+
+<body class="marco-general"> <!-- comienza lo que el usuario ve en su pantalla, LLEVA CLASE??? -->
+   
+         <!-- inicia nav -->
+    <nav class="navbar navbar-expand-lg botonera sticky-top"> <!-- tomado de bootstrap --> <!-- REVISAR ESTOS PARAMETROS -->
+        <div class="container-fluid"> <!-- tomado bootstrap -->
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logo.png" alt="Logo de working at home">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <!-- aca va el btn hamburguesa -->
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- aca se cambia la dire de la ul -->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- REVISAR ESTOS PARAMETROS -->
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/evaluar.html">Evaluar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pages/login.html">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- ends nav -->
+
+    <header> <!-- Imagen heroe con link -->
+        <a href="./pages/evaluar.html"> <img src="img/headers/slide_working_at_home.png" alt="banner working at home" class="w-100"></a>
+    </header>
+
+    <main>
+        <section class="container">
+            <h1>working at home</h1>
+            <p>La modalidad del trabajo en casa o trabajo remoto ha llegado para quedarse, pero es imprescindible conocer si nuestros hogares están preparados para que seamos productivos, estemos seguros, que no presente riesgos a la salud física y emocional, como así también que nuestra actividad tenga el menor impacto sobre el medio ambiente. Ahora tenés la posibilidad de evaluar y mejorar tu hogar, tu entorno, tus herramientas de trabajo, tu silla, escritorio, computadora, nivel de iluminación, ruido, riesgo eléctrico, etc.</p> 
+        </section>
+
+        <section class="grid-container">
+                <article>
+                    <img src="img/servicios/sostenibilidad.png" alt="Sostenibilidad">
+                    <h2>Sostenibilidad</h2>
+                    <p>Medí tu huella de carbono, evaluá los puntos de mejora para que tu trabajo sea sostenible en el tiempo.</p>
+                    <button>ver más</button>
+                </article>
+
+                <article>
+                    <img src="img/servicios/ergonomia.png" alt="Ergonomía">
+                    <h2>Ergonomía</h2>
+                    <p>Evaluá tus elementos de trabajo, verificá si son seguros y aptos para el cuidado de tu salud.</p>
+                    <button>ver más</button>
+                </article>
+
+                <article>
+                    <img src="img/servicios/stress.png" alt="Stress">
+                    <h2>Stress</h2>
+                    <p>Evaluá tu forma de trabajo, tus pausas activas, y la probabilidad de sufrir el síndrome de "Burn out".</p>
+                    <button>ver más</button>
+                </article>
+        </section>
+
+        <footer>
+            <ul>
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="img/iconos/facebook.png" alt="Seguinos en Facebook">
+            </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <img src="img/iconos/twitter.png" alt="Seguinos en Twitter">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="img/iconos/instagram.png" alt="Seguinos en Twitter">
+            </a>
+            <ul>
+                <li><a href="#">Términos de Servicio</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+            </ul>
+
+        </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+</body> <!-- termina lo que el usuario ve -->
+</html>
+
