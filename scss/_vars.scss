@@ -1,2 +1,39 @@
-//variables globales
-//imports
+//global vars
+
+//Colors
+$mainColor:#ff39b3;
+$secondaryColor: gray;
+$keyColor: rgb(40, 40, 40);
+$whiteColor: white;
+$mainTextColor: rgb(40, 40, 40);
+$ligthTextColor: rgb(255, 255, 255);
+$darkTextColor: black;
+$secondaryTextColor:#ff39b3;
+
+
+//Fonts
+$mainFont: 'Roboto', sans-serif;
+
+//Font Sizing
+$textSm: .8em;
+$textMd: 1em;
+$textLg: 2em;
+$textXl: 3em;
+
+//Font weight
+$fontLight: 100;
+$fontRegular: 400;
+$fontBold: 600;
+
+//Image sizes (article)
+
+
+
+.center{
+    text-align: center;
+}
+
+.justify{
+    text-align: justify;
+}
+

@@ -1,0 +1,20 @@
+//background
+.navBar{
+    background-color: $whiteColor;
+    ul{
+        li{
+
+            a{
+                color: $mainTextColor;
+                font-size: $textMd;
+                &:hover{
+                    color: $secondaryTextColor;
+                }
+            }
+        }
+    }
+    img {
+        width: 50%;
+        margin: 0 0 0 10px;
+    }
+}

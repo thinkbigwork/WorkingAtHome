@@ -1,0 +1,62 @@
+.paragraphFullWidth{
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+    color: $mainTextColor;    
+    font-size: $textMd;
+    h1{
+        text-align: center;
+        padding-bottom: 20px;
+        font-weight: $fontBold;
+    }
+}
+
+button{
+    background-color: $mainColor;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        &:hover {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+        }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 3em;
+    padding: 2empx;
+    article{
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px 0;
+    }
+  }
+
+  .flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+    article{
+        width: auto;
+        text-align: center;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        padding: 20px 0;
+        p{
+            padding: 0 10px 0 10px;
+        }
+        img{
+            width: 90%;
+        }
+       
+    }
+  }

@@ -1,0 +1,12 @@
+.footer{
+    width:  100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $keyColor;
+    height: auto;
+    position: sticky;
+    margin: 20px;
+    padding: 20px;
+  }
