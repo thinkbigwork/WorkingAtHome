@@ -37,6 +37,7 @@
 
 button {
   background-color: #ff39b3;
+  margin-bottom: 1.2em;
   color: white;
   border: none;
   border-radius: 8px;
@@ -49,6 +50,15 @@ button {
 }
 button:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 13px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cardText {
+  color: rgb(40, 40, 40);
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cardText h3 {
+  padding: 0.7em;
 }
 
 .grid-container {
@@ -87,7 +97,7 @@ button:hover {
 .footer {
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: white;
   width: 100%;
   /*    display: grid;
      grid-template-columns: auto auto; */
@@ -96,6 +106,9 @@ button:hover {
   position: sticky;
   margin: 20px;
   padding: 20px;
+}
+.footer ul {
+  margin-right: 1em;
 }
 .footer ul li a {
   color: 100;

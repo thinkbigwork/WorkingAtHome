@@ -1,7 +1,7 @@
 .footer{
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: white;
     width:  100%;
  /*    display: grid;
     grid-template-columns: auto auto; */
@@ -12,6 +12,7 @@
     padding: 20px;
 
     ul{
+        margin-right: 1em;
         li{
 
             a{
