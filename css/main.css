@@ -85,16 +85,30 @@ button:hover {
 }
 
 .footer {
+  margin: 0;
+  padding: 0;
+  background-color: black;
   width: 100%;
   display: grid;
   grid-template-columns: auto auto;
   align-items: center;
   justify-content: space-between;
-  background-color: rgb(40, 40, 40);
   height: auto;
   position: sticky;
   margin: 20px;
   padding: 20px;
+}
+.footer ul li a {
+  color: 100;
+  font-size: 1em;
+  text-decoration: none;
+}
+.footer ul li a:hover {
+  color: #ff39b3;
+}
+.footer img {
+  width: 20%;
+  margin: 0 0 0 10px;
 }
 
 /*# sourceMappingURL=main.css.map */

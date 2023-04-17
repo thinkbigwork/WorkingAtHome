@@ -1,12 +1,33 @@
 .footer{
+    margin: 0;
+    padding: 0;
+    background-color: black;
     width:  100%;
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
     justify-content: space-between;
-    background-color: $keyColor;
     height: auto;
     position: sticky;
     margin: 20px;
     padding: 20px;
-  }
+
+    ul{
+        li{
+
+            a{
+                color: $fontLight;
+                font-size: $textMd;
+                text-decoration: none;
+                &:hover{
+                    color: $secondaryTextColor;
+                }
+            }
+        }
+    }
+    img {
+        width: 20%;
+        margin: 0 0 0 10px;
+    }
+}
+
