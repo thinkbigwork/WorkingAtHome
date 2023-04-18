@@ -19,11 +19,11 @@
         text-align: right;
         li{
             text-decoration: none;
+            list-style: none;
             a{
                 color: $fontLight;
                 font-size: $textMd;
                 text-decoration: none;
-                list-style-type: none;
                 &:hover{
                     color: $secondaryTextColor;
                 }

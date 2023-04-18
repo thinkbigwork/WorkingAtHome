@@ -1,12 +1,14 @@
 //background
 .navBar{
     background-color: $whiteColor;
+    height: 5em;
     ul{
         li{
 
             a{
                 color: $mainTextColor;
                 font-size: $textMd;
+                list-style: none;
                 &:hover{
                     color: $secondaryTextColor;
                 }

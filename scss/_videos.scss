@@ -1,8 +1,29 @@
-.videos{
+#videos{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 1em;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,300px);
     iframe{
-        padding: 0 1em;
+        filter: grayscale(0.9);
+    }
+    iframe:hover{
+        filter: none;
     }
 }
+
+@media (width > 768px){
+    #videos{
+        grid-template-columns: 2fr;
+        grid-template-rows: repeat(3);
+
+    }
+}
+
+@media (width > 1200px){
+    #videos{
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: repeat(3,30vh);
+
+    }
+  
+}
+

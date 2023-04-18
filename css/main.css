@@ -9,10 +9,12 @@
 
 .navBar {
   background-color: white;
+  height: 5em;
 }
 .navBar ul li a {
   color: rgb(40, 40, 40);
   font-size: 1em;
+  list-style: none;
 }
 .navBar ul li a:hover {
   color: #ff39b3;
@@ -134,12 +136,12 @@ button:hover {
 }
 .footer ul li {
   text-decoration: none;
+  list-style: none;
 }
 .footer ul li a {
   color: 100;
   font-size: 1em;
   text-decoration: none;
-  list-style-type: none;
 }
 .footer ul li a:hover {
   color: #ff39b3;
