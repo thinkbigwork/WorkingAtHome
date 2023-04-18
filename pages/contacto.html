@@ -1,20 +1,20 @@
-<!DOCTYPE html> <!-- soy un documento de html -->
-<html lang="es"> <!-- seteo en español -->
+<!DOCTYPE html>
+<html lang="es">
 
-<head> <!-- aqui comienza el encabezado -->
-    <meta charset="UTF-8"> <!-- seteo el teclado en conjunto de caracteres en latino -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- indica la compatibilidad con el Internet Explore -->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto - working at home</title> <!-- titulo del documento -->
+    <title>Contacto - working at home</title>
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="../css/main.css"> <!--vinculacion entre html y css-->
+    <link rel="stylesheet" href="../css/main.css"> 
     <!-- Incluir estilos y scripts de Bootstrap desde los enlaces en línea -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
 
 
-</head> <!-- aquí cierra el encabezado -->
+</head>
 
-<body> <!-- comienza lo que el usuario ve en su pantalla -->
+<body> 
    
        <!-- inicia nav -->
        <nav class="navbar navbar-expand-lg navBar sticky-top"> <!-- tomado de bootstrap --> 
@@ -47,25 +47,36 @@
         </nav>
     <!-- ends nav -->
     
-
-
     <main>
-        <section class="container">
-                <h1>Contacto</h1>
+
+            <!-- inicio seccion presentacion-->      
+    <main class="cointainer-fluid">
+        <section class="row">
+            <div class="col">
+              <div class="paragraphFullWidth">
+                <h1>Queremos escucharte</h1>
+                <p>Ya sea que necesites ayuda, conocer más detalles de las evaluaciones, o tal vez quieras evaluar algo en particular, conocer cuáles pueden ser las posibles soluciones a los inconvenientes detectados, hacernos llegar alguna crítica o sugerencia, estamos aquí para escucharte.</p> 
+            </div>
+            </div>
+        </section>
+      <!-- fin seccion presentacion--> 
+
+        <section class="container fluid contactForm">
+                <h2>Contacto</h2>
                 <form>
-                    <div class="form-group">
+                    <div class="form-group fields">
                         <label for="nombre">Nombre:</label>
                         <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group fields">
                         <label for="apellido">Apellido:</label>
                         <input type="text" class="form-control" id="apellido" placeholder="Ingresa tu apellido">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group fields">
                         <label for="email">Email:</label>
                         <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico">
                     </div>
-                    <div class="form-group">
+                    <div class="form-group fields">
                         <label for="comentarios">Comentarios:</label>
                         <textarea class="form-control" id="comentarios" rows="5"></textarea>
                     </div>

@@ -42,7 +42,7 @@ button {
   border: none;
   border-radius: 8px;
   color: white;
-  padding: 15px 32px;
+  padding: 1em 2em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -92,6 +92,24 @@ button:hover {
 }
 .flex-container article img {
   width: 90%;
+}
+
+.contactForm {
+  margin: 1em 5em;
+}
+.contactForm .fields {
+  padding: 1em 0;
+}
+
+.mvv {
+  padding: 1em 3em;
+}
+.mvv h2 {
+  padding-top: 1em;
+}
+.mvv .acordeon {
+  padding: 1em;
+  text-decoration-color: rgb(40, 40, 40);
 }
 
 .footer {

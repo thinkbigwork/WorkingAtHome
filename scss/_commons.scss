@@ -18,7 +18,7 @@ button{
     border: none;
     border-radius: 8px;
     color: white;
-    padding: 15px 32px;
+    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -70,3 +70,20 @@ button{
        
     }
   }
+.contactForm{
+    margin: 1em 5em;
+    .fields{
+        padding: 1em 0;
+    }
+}
+
+.mvv{
+    padding: 1em 3em;
+    h2{
+        padding-top: 1em;
+    }    
+    .acordeon{
+        padding: 1em;
+        text-decoration-color: $mainTextColor;
+    }
+}
