@@ -1,6 +1,4 @@
-*.ai
 *.psd
-*.vsc
-*.log
+*.ai
 node_modules/
-mi_repositorio
+    
