@@ -53,7 +53,7 @@
        <!-- ends nav -->
 
     <main>
-        <section class="container">
+        <section class="paragraphFullWidth">
                 <h1>Evaluar</h1>
                 <p>Hacer un diagnóstico sobre las condiciones laborales dentro de nuestro propio hogar nos permite conocer cuáles son las problemáticas y las posibilidades de mejora para poder trabajar más eficientemente, de forma segura y sobre todo cuidar nuestra salud mental y física y cuidar el medio ambiente.</p> 
                 <p></p>
@@ -62,15 +62,11 @@
         <section>
           <div class="container">
             
-            <form>
+            <form class="evaluar">
               <div class="form-group">
-                <div class="row">
-                  <div class="col">
-                    <label for="pregunta1">1- Tu silla cuenta con apoyo lumbar, apoya pies, apoya brazos, apoya cabeza y es basculante?:</label>
-
-                  </div>
-                  <div class="col">
-                    <div class="form-check form-check-inline">
+                    <div class="pregunta">
+                      <label for="pregunta1">1- Tu silla cuenta con apoyo lumbar, apoya pies, apoya brazos, apoya cabeza y es basculante?:</label>
+                      <div class="form-check form-check-inline">
                       <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
                       <label class="form-check-label" for="pregunta1_si">SI</label>
                     </div>
@@ -83,7 +79,6 @@
                       <label class="form-check-label" for="pregunta1_ns">N/S</label>
                     </div>
                   </div>
-                </div>
               </div>
               
               <div class="form-group">
@@ -119,9 +114,8 @@
                   <label class="form-check-label" for="pregunta3_ns">N/S</label>
                 </div>
               </div>
-              <button type="submit" class="btn button">Enviar</button>
+              <button type="submit">Enviar</button>
             </form>
-          
         </section>
       </main>
 

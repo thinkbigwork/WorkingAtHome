@@ -1,3 +1,4 @@
+//Estilos comunes a todas las paginas
 .paragraphFullWidth{
     margin: 20px;
     padding: 20px;
@@ -75,6 +76,22 @@ button{
     .fields{
         padding: 1em 0;
     }
+    button {
+        background-color: $mainColor;
+        margin-bottom: 1.2em;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 1em 2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+            &:hover {
+                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+            }
+    }
 }
 
 .mvv{
@@ -85,5 +102,51 @@ button{
     .acordeon{
         padding: 1em;
         text-decoration-color: $mainTextColor;
+    }
+}
+
+.evaluar{
+    padding: .5em;
+    button {
+        background-color: $mainColor;
+        margin-bottom: 1.2em;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 1em 2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+            &:hover {
+                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+            }
+    }
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5em;
+    div{
+        padding: 1em;
+    };
+    button {
+        background-color: $mainColor;
+        margin-bottom: 1.2em;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        color: white;
+        padding: 1em 2em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+            &:hover {
+                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+            }
     }
 }
