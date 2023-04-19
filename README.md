@@ -1,9 +1,9 @@
 working at home
 ====================
-<img src="https://github.com/thinkbigwork/workingathome/blob/main/WORKING_AT_HOME/img/headers/slide_working_at_home.png" align="center" height="240" alt="GridDB"/>
+<img src="https://github.com/thinkbigwork/WorkingAtHome/blob/main/img/headers/slide_working_at_home.png" align="center" height="240" alt="GridDB"/>
 
+https://thinkbigwork.github.io/WorkingAtHome/index.html
 
-https://workingathome.github.com
 
 En tiempos de trabajo remoto, hacer un diagnóstico sobre las condiciones laborales dentro de nuestro propio hogar nos permite conocer cuáles son las problemáticas y las posibilidades de mejora de nuestro espacio de trabajo, y así poder trabajar de forma más eficiente, segura y sobre todo cuidar nuestra salud mental y física y cuidar el medio ambiente.
 
