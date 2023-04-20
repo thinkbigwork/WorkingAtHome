@@ -284,6 +284,19 @@ main img {
     grid-template-areas: "fota fotb fotc" "fota fotd fotc" "fota fote fotf";
   }
 }
+.transform:hover {
+  transform: translate(-50px, -20px);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.scale:hover {
+  transform: scale(1.1);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+@keyframes animatedDiv {}
 * {
   margin: 0px;
   padding: 0px;

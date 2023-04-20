@@ -1,0 +1,15 @@
+.transform:hover{
+    transform: translate(-50px, - 20px);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.scale:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+@keyframes animatedDiv{
+    
+}
