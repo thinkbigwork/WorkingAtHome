@@ -23,6 +23,10 @@
   margin: 0 0 0 10px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .paragraphFullWidth {
   margin: 20px;
   padding: 20px;
@@ -291,12 +295,34 @@ main img {
 }
 
 .scale:hover {
+  transform: scale(0.9);
+  transition: all 1s;
   transform: scale(1.1);
   transition: all 1s;
   cursor: pointer;
 }
 
 @keyframes animatedDiv {}
+@keyframes animatedHeader {
+  0% {
+    background-image: url(../img/headers/slide_working_at_home1.png);
+  }
+  25% {
+    background-image: url(../img/headers/slide_working_at_home2.png);
+  }
+  50% {
+    background-image: url(../img/headers/slide_working_at_home3.png);
+  }
+  75% {
+    background-image: url(../img/headers/slide_working_at_home4.png);
+  }
+}
+.header-animated {
+  animation-name: animatedHeader;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
 * {
   margin: 0px;
   padding: 0px;
