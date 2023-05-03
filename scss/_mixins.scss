@@ -1,13 +1,13 @@
 //revisar este partial
 
 //mixins
-@mixin textos {
+/* @mixin textos {
     font-size: ;
     font-
 
-}
+} */
 
-@mixin medias ($breakpoint) {
+/* @mixin medias ($breakpoint) {
     @if $breakpoint == mobile {
         @media (width <480px){
             @content;
@@ -25,3 +25,4 @@
     }
 }
 
+ */
