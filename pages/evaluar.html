@@ -37,7 +37,7 @@
            </button>
            <div class="collapse navbar-collapse" id="navbarSupportedContent">
                    <!-- aca se cambia la dire de la ul -->
-                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> <!-- REVISAR ESTOS PARAMETROS -->
+                   <ul class="navbar-nav ms-auto mb-2 mb-lg-0 mobile"> <!-- REVISAR ESTOS PARAMETROS -->
                    <li class="nav-item">
                        <a class="nav-link" href="#">Evaluar</a>
                    </li>
@@ -57,70 +57,81 @@
        <!-- ends nav -->
 
     <main>
-        <section class="paragraphFullWidth">
-                <h1>Evaluar</h1>
-                <p>Hacer un diagnóstico sobre las condiciones laborales dentro de nuestro propio hogar nos permite conocer cuáles son las problemáticas y las posibilidades de mejora para poder trabajar más eficientemente, de forma segura y sobre todo cuidar nuestra salud mental y física y cuidar el medio ambiente.</p> 
-                <p></p>
+
+      <section class="row">
+        <div class="col">
+          <div class="paragraphFullWidth texts">
+            <h1>Evaluar</h1>
+            <p>Hacer un diagnóstico sobre las condiciones laborales dentro de nuestro propio hogar nos permite conocer cuáles son las problemáticas y las posibilidades de mejora para poder trabajar más eficientemente, de forma segura y sobre todo cuidar nuestra salud mental y física y cuidar el medio ambiente.</p> 
+        </div>
+        </div>
+    </section>
+        <section  class="container">
+          <div class="pregunta bgGray"> 
+              <label for="pregunta1">1- Tu silla cuenta con apoyo lumbar, apoya pies, apoya brazos, apoya cabeza y es basculante?:</label>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
+              <label class="form-check-label" for="pregunta1_si">SI</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="NO">
+              <label class="form-check-label" for="pregunta1_no">NO</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_ns" value="N/S">
+              <label class="form-check-label" for="pregunta1_ns">N/S</label>
+              </div>
+         </div>
+
+         <div class="pregunta"> 
+            <label for="pregunta1">2- Tu espacio de trabajo cuenta con buen nivel de iluminación, y en tu monitor se evitan los reflejos?:</label>
+            <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
+            <label class="form-check-label" for="pregunta1_si">SI</label>
+            </div>
+            <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="NO">
+            <label class="form-check-label" for="pregunta1_no">NO</label>
+            </div>
+            <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_ns" value="N/S">
+            <label class="form-check-label" for="pregunta1_ns">N/S</label>
+            </div>
+          </div>
+          <div class="pregunta bgGray"> 
+              <label for="pregunta1">3- ¿Tu sistema de conexión eléctrica cuenta con la debida protección para evitar accidentes?:</label>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
+              <label class="form-check-label" for="pregunta1_si">SI</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="NO">
+              <label class="form-check-label" for="pregunta1_no">NO</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_ns" value="N/S">
+              <label class="form-check-label" for="pregunta1_ns">N/S</label>
+              </div>
+          </div>
+          <div class="pregunta"> 
+              <label for="pregunta1">4- Has experimentado dolor de cabeza, de cuello, de espalda, o se te han adormecido las piernas?:</label>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
+              <label class="form-check-label" for="pregunta1_si">SI</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="NO">
+              <label class="form-check-label" for="pregunta1_no">NO</label>
+              </div>
+              <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_ns" value="N/S">
+              <label class="form-check-label" for="pregunta1_ns">N/S</label>
+              </div>
+          </div>
+          <a class="button" type="submit" href="404.html">Enviar</a>
+
         </section>
 
-        <section>
-          <div class="container">
-            
-            <form class="evaluar">
-              <div class="form-group">
-                    <div class="pregunta">
-                      <label for="pregunta1">1- Tu silla cuenta con apoyo lumbar, apoya pies, apoya brazos, apoya cabeza y es basculante?:</label>
-                      <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_si" value="SI">
-                      <label class="form-check-label" for="pregunta1_si">SI</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_no" value="NO">
-                      <label class="form-check-label" for="pregunta1_no">NO</label>
-                    </div>
-                    <div class="form-check form-check-inline">
-                      <input class="form-check-input" type="radio" name="pregunta1" id="pregunta1_ns" value="N/S">
-                      <label class="form-check-label" for="pregunta1_ns">N/S</label>
-                    </div>
-                  </div>
-              </div>
-              
-              <div class="form-group">
-                <div class="pregunta">
-                  <label for="pregunta2">2- El nivel de iluminación del ambiente provee un buen contraste con el brillo del monitor?:</label>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pregunta2" id="pregunta2_si" value="SI">
-                    <label class="form-check-label" for="pregunta2_si">SI</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pregunta2" id="pregunta2_no" value="NO">
-                    <label class="form-check-label" for="pregunta2_no">NO</label>
-                  </div>
-                  <div class="form-check form-check-inline">
-                    <input class="form-check-input" type="radio" name="pregunta2" id="pregunta2_ns" value="N/S">
-                    <label class="form-check-label" for="pregunta2_ns">N/S</label>
-                  </div>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="pregunta3">3- Pensando en tu huella de carbono, quedan tus dispositivos electrónicos encendidos aún cuando no estás en casa?:</label>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="pregunta3" id="pregunta3_si" value="SI">
-                  <label class="form-check-label" for="pregunta3_si">SI</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="pregunta3" id="pregunta3_no" value="NO">
-                  <label class="form-check-label" for="pregunta2_no">NO</label>
-                </div>
-                <div class="form-check form-check-inline">
-                  <input class="form-check-input" type="radio" name="pregunta3" id="pregunta3_ns" value="N/S">
-                  <label class="form-check-label" for="pregunta3_ns">N/S</label>
-                </div>
-              </div>
-              <button type="submit">Enviar</button>
-            </form>
-        </section>
       </main>
 
    <!-- inicio footer-->   
@@ -134,7 +145,7 @@
           <img src="../img/iconos/twitter.png" alt="Seguinos en Twitter">
         </a>
         <a href="https://www.instagram.com/" target="_blank">
-          <img src="../img/iconos/instagram.png" alt="Seguinos en Twitter">
+          <img src="../img/iconos/instagram.png" alt="Seguinos en Instagram">
         </a>
       </div>
       <div class="col rightBox"> <!-- links menu -->

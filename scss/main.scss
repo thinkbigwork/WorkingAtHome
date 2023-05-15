@@ -1,6 +1,7 @@
 //imports
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 @import "_vars";
+@import "_mediaQuery";
 @import "_mixins";
 @import "_nav";
 @import "_animations";
@@ -13,4 +14,5 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    overflow-x: hidden;
 }

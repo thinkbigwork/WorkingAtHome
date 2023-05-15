@@ -1,9 +1,10 @@
 .footer{
-    background-color: black;
+    background-color: map-get($map: $paleta, $key: 'keyColor');
     width:100%;
     display: flex;
     align-items:center;
-    border: solid 1px black;
+    margin-top: 30px;
+    border: solid 1px  map-get($map: $paleta, $key: 'mainTextColor');
     .row{
         padding: 2em 0;
         width: 100%;
@@ -25,7 +26,7 @@
                 font-size: $textMd;
                 text-decoration: none;
                 &:hover{
-                    color: $secondaryTextColor;
+                    color: map-get($map: $paleta, $key:'secondaryTextColor' );
                 }
             }
         }

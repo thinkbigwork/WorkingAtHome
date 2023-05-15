@@ -1,15 +1,15 @@
 //background
 .navBar{
-    background-color: $whiteColor;
+    background-color: map-get($map: $paleta, $key: 'whiteColor');
     ul{
         li{
 
             a{
-                color: $mainTextColor;
+                color: map-get($map: $paleta, $key:'mainTextColor' );
                 font-size: $textMd;
                 list-style: none;
                 &:hover{
-                    color: $secondaryTextColor;
+                    color: map-get($map: $paleta, $key:'secondaryTextColor' );
                 }
             }
         }
@@ -17,5 +17,13 @@
     img {
         width: 50%;
         margin: 0 0 0 10px;
+    }
+
+    .navbar-toggler{
+
+        border: none !important;
+        &:focus{
+            box-shadow: none !important;
+        }
     }
 }

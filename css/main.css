@@ -7,30 +7,43 @@
   text-align: justify;
 }
 
-/* @mixin textos {
-    font-size: ;
-    font-
-
-} */
-/* @mixin medias ($breakpoint) {
-    @if $breakpoint == mobile {
-        @media (width <480px){
-            @content;
-        }
-    }
-    @if $breakpoint == tablet {
-        @media (width <600px){
-            @content;
-        }
-    }
-    @if $breakpoint == desktop {
-        @media (width <1200px){
-            @content;
-        }
-    }
+@media (max-width: 991px) {
+  .imgHeader .imgWeb {
+    display: none;
+  }
+  .imgHeader .imgMobile {
+    display: flex;
+  }
+  .texts h1 {
+    font-size: 2em;
+  }
+  .texts p {
+    width: 100% !important;
+    padding: 25px;
+    margin-top: -30px;
+  }
+  .footer .row {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .row .leftBox {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .row .rightBox {
+    margin-top: 30px;
+    margin-left: -20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
-
- */
 .navBar {
   background-color: white;
 }
@@ -45,6 +58,12 @@
 .navBar img {
   width: 50%;
   margin: 0 0 0 10px;
+}
+.navBar .navbar-toggler {
+  border: none !important;
+}
+.navBar .navbar-toggler:focus {
+  box-shadow: none !important;
 }
 
 .scale:hover {
@@ -80,17 +99,71 @@
   box-sizing: border-box;
 }
 
-.paragraphFullWidth {
-  margin: 20px;
-  padding: 20px;
+.imgWeb {
+  display: flex;
+}
+
+.imgMobile {
+  display: none;
+}
+
+.button {
+  background-color: #ff39b3;
+  margin-bottom: 1.2em;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 1.5em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.button:hover {
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 13px 25px 0 rgba(0, 0, 0, 0.19);
+}
+
+.paragraphFullWidth, .texts, .textsHome {
   text-align: justify;
   color: rgb(40, 40, 40);
   font-size: 1em;
+  line-height: 2em;
 }
-.paragraphFullWidth h1 {
+.paragraphFullWidth h1, .texts h1, .textsHome h1 {
+  margin-top: 20px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   font-weight: 600;
+}
+
+.textsHome {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textsHome p {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+}
+
+.texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.texts p {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
 
 button {
@@ -99,8 +172,7 @@ button {
   color: white;
   border: none;
   border-radius: 8px;
-  color: white;
-  padding: 1em 2em;
+  padding: 0.6em 1.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -155,24 +227,37 @@ button:hover {
 .contactForm {
   margin: 1em 5em;
 }
-.contactForm .fields {
-  padding: 1em 0;
+.contactForm .form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.contactForm button {
+.contactForm .form input {
+  font-size: 0.8em;
+  width: 250px;
+}
+.contactForm .form button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: #ff39b3;
   margin-bottom: 1.2em;
   color: white;
   border: none;
   border-radius: 8px;
-  color: white;
-  padding: 1em 2em;
+  padding: 0.6em 1.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-.contactForm button:hover {
+.contactForm .form button:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 13px 25px 0 rgba(0, 0, 0, 0.19);
+}
+.contactForm .fields {
+  padding: 1em 0;
 }
 
 .mvv {
@@ -186,23 +271,22 @@ button:hover {
   text-decoration-color: rgb(40, 40, 40);
 }
 
-.evaluar {
+.container, .error404 {
   padding: 0.5em;
 }
-.evaluar button {
+.container button, .error404 button {
   background-color: #ff39b3;
   margin-bottom: 1.2em;
   color: white;
   border: none;
   border-radius: 8px;
-  color: white;
-  padding: 1em 2em;
+  padding: 0.6em 1.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-.evaluar button:hover {
+.container button:hover, .error404 button:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 13px 25px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -212,36 +296,66 @@ button:hover {
   justify-content: center;
   padding: 0.5em;
 }
-.login div {
-  padding: 1em;
+.login .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
-.login button {
+.login .form input {
+  width: 250px;
+  font-size: 0.8em;
+}
+.login .form button {
   background-color: #ff39b3;
   margin-bottom: 1.2em;
   color: white;
   border: none;
   border-radius: 8px;
-  color: white;
-  padding: 1em 2em;
+  padding: 0.6em 1.5em;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
-.login button:hover {
+.login .form button:hover {
   box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.24), 0 13px 25px 0 rgba(0, 0, 0, 0.19);
 }
+.login div {
+  padding: 1em;
+}
 
-/* main{
-    @include medias(mobile){
-        background-color: $mainColor;
-    } */
+.container, .error404 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .pregunta, .error404 .pregunta {
+  margin: 1em;
+  padding: 1em;
+}
+.container .bgGray, .error404 .bgGray {
+  background-color: rgb(236, 236, 236);
+}
+
+.error404 img {
+  width: 30%;
+}
+.error404 p {
+  text-align: center;
+}
+.error404 button {
+  margin-bottom: 50px;
+}
+
 .footer {
-  background-color: black;
+  background-color: rgb(40, 40, 40);
   width: 100%;
   display: flex;
   align-items: center;
-  border: solid 1px black;
+  margin-top: 30px;
+  border: solid 1px rgb(40, 40, 40);
 }
 .footer .row {
   padding: 2em 0;
@@ -349,6 +463,7 @@ main img {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=main.css.map */

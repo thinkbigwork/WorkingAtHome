@@ -1,0 +1,53 @@
+@media (max-width: 991px){
+//imagen header
+
+.imgHeader{
+
+    .imgWeb{
+        display: none;  
+    }  
+    .imgMobile{
+        display: flex;
+    }
+}
+
+    .texts{
+ 
+        h1{
+            font-size: $textLg;
+        }
+        p{
+            width: 100% !important;
+            padding: 25px;
+            margin-top: -30px;
+   
+        }
+    }
+
+    .footer{
+
+      .row{
+      display: flex;
+      flex-direction: column !important;
+      justify-content: center ;
+      align-items: center ;
+ 
+        .leftBox{
+            margin-left: 10px;
+        display: flex;
+        flex-direction: row ;
+        justify-content: center;
+        align-items: center;
+            
+        }
+        .rightBox{
+            margin-top: 30px;
+            margin-left: -20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center ;
+            align-items: center;
+        }
+      }
+    }
+}

@@ -1,28 +1,12 @@
-//revisar este partial no está funcionando
-
-//mixins
-/* @mixin textos {
-    font-size: ;
-    font-
-
-} */
-
-/* @mixin medias ($breakpoint) {
-    @if $breakpoint == mobile {
-        @media (width <480px){
-            @content;
-        }
-    }
-    @if $breakpoint == tablet {
-        @media (width <600px){
-            @content;
-        }
-    }
-    @if $breakpoint == desktop {
-        @media (width <1200px){
-            @content;
-        }
-    }
+@mixin principalTextBox {
+    text-align: justify;
+    color: map-get($map: $paleta, $key: 'mainTextColor');    
+    font-size: $textMd; 
+    line-height: $textLg;
+    h1{
+        margin-top: 20px;
+        text-align: center;
+        padding-bottom: 15px;
+        font-weight: $fontBold;
+    }  
 }
-
- */

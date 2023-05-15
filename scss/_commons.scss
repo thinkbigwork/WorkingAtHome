@@ -4,27 +4,75 @@
     box-sizing: border-box;
 }
 
+//imagen header
+
+.imgWeb{
+    display: flex;  
+}  
+.imgMobile{
+    display: none;
+}
+
+.button{
+    background-color:map-get($map: $paleta, $key: 'mainColor');
+    margin-bottom: 1.2em;
+    color: map-get($map: $paleta, $key:'whiteColor' );
+    border: none;
+    border-radius: 8px;
+    padding: 0.6em 1.5em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+        &:hover {
+            box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+        }
+
+}
+
 .paragraphFullWidth{
-    margin: 20px;
-    padding: 20px;
-    text-align: justify;
-    color: $mainTextColor;    
-    font-size: $textMd;
-    h1{
-        text-align: center;
-        padding-bottom: 20px;
-        font-weight: $fontBold;
-    }
+ @include principalTextBox;
+}
+
+.textsHome{
+    @extend .paragraphFullWidth;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    p{ width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+        }   
+    
+}
+.texts{
+    @extend .paragraphFullWidth;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        p{ width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            }   
 }
 
 button{
-    background-color: $mainColor;
+    background-color: map-get($map: $paleta, $key:'mainColor');
     margin-bottom: 1.2em;
-    color: white;
+    color:map-get($map: $paleta, $key:'whiteColor');
     border: none;
     border-radius: 8px;
-    color: white;
-    padding: 1em 2em;
+    padding: 0.6em 1.5em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -35,7 +83,7 @@ button{
 }
 
 .cardText{
- color: $mainTextColor;
+ color:map-get($map: $paleta, $key: 'mainTextColor');
  text-align: center;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     h3{
@@ -78,25 +126,39 @@ button{
   }
 .contactForm{
     margin: 1em 5em;
+    .form{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input{
+            font-size: 0.8em;
+            width: 250px;
+        }
+        button {
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: map-get($map: $paleta, $key:'mainColor' );
+            margin-bottom: 1.2em;
+            color: map-get($map: $paleta, $key: 'whiteColor');
+            border: none;
+            border-radius: 8px;
+            padding: 0.6em 1.5em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+                &:hover {
+                    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+                }
+        }
+    }
     .fields{
         padding: 1em 0;
     }
-    button {
-        background-color: $mainColor;
-        margin-bottom: 1.2em;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        color: white;
-        padding: 1em 2em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-            &:hover {
-                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
-            }
-    }
+   
 }
 
 .mvv{
@@ -106,20 +168,19 @@ button{
     }    
     .acordeon{
         padding: 1em;
-        text-decoration-color: $mainTextColor;
+        text-decoration-color:map-get($map: $paleta, $key:'mainTextColor' );
     }
 }
 
-.evaluar{
+.container{
     padding: .5em;
     button {
-        background-color: $mainColor;
+        background-color:map-get($map: $paleta, $key:'mainColor' );
         margin-bottom: 1.2em;
-        color: white;
+        color: map-get($map: $paleta, $key: 'whiteColor');
         border: none;
         border-radius: 8px;
-        color: white;
-        padding: 1em 2em;
+        padding: 0.6em 1.5em;
         text-align: center;
         text-decoration: none;
         display: inline-block;
@@ -135,28 +196,64 @@ button{
     align-items: center;
     justify-content: center;
     padding: .5em;
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        input{
+            width: 250px;
+            font-size: 0.8em;
+        }
+        button {
+            background-color:map-get($map: $paleta, $key: 'mainColor');
+            margin-bottom: 1.2em;
+            color: map-get($map: $paleta, $key:'whiteColor' );
+            border: none;
+            border-radius: 8px;
+            padding: 0.6em 1.5em;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+                &:hover {
+                    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
+                }
+        }
+    }
     div{
         padding: 1em;
     };
-    button {
-        background-color: $mainColor;
-        margin-bottom: 1.2em;
-        color: white;
-        border: none;
-        border-radius: 8px;
-        color: white;
-        padding: 1em 2em;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-            &:hover {
-                box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 13px 25px 0 rgba(0,0,0,0.19);
-            }
-    }
+    
 }
 
-/* main{
-    @include medias(mobile){
-        background-color: $mainColor;
-    } */
+//evaluar
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        .pregunta{
+            margin: 1em;
+            padding: 1em;
+            
+        }
+        .bgGray{
+            background-color: map-get($map: $paleta, $key: 'bgGrayColor');
+        }
+}
+
+//error404
+.error404{
+@extend .container;
+    img{
+        width: 30%;
+    }
+    p{
+        text-align: center;
+    }
+    button{
+        margin-bottom: 50px;
+    } 
+
+}

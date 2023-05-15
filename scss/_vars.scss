@@ -1,15 +1,18 @@
 //global vars
 
-//Colors
-$mainColor:#ff39b3;
-$secondaryColor: gray;
-$keyColor: rgb(40, 40, 40);
-$whiteColor: white;
-$mainTextColor: rgb(40, 40, 40);
-$ligthTextColor: rgb(255, 255, 255);
-$darkTextColor: black;
-$secondaryTextColor:#ff39b3;
+//Colors map
+$paleta:(
 
+  'mainColor': #ff39b3,
+  'secondaryColor': rgb(128 128 128),
+  'keyColor': rgb(40, 40, 40),
+  'whiteColor': white,
+  'mainTextColor':  rgb(40, 40, 40),
+  'ligthTextColor':  rgb(255, 255, 255),
+  'darkTextColor': black,
+  'secondaryTextColor':#ff39b3,
+  'bgGrayColor':rgb(236, 236, 236),
+  );
 
 //Fonts
 $mainFont: 'Roboto', sans-serif;
@@ -42,3 +45,4 @@ $grid-breakpoints: (
   xl: 1200px,
   xxl: 1400px
 );
+
