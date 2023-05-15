@@ -66,6 +66,10 @@
   box-shadow: none !important;
 }
 
+.mobileNav {
+  padding: 10px !important;
+}
+
 .scale:hover {
   transform: scale(0.9);
   transition: all 1s;
